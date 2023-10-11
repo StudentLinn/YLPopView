@@ -1,6 +1,6 @@
 //
-//  configConfig.swift
-//  configTest
+//  PopConfig.swift
+//  弹窗配置
 //
 //  Created by Lin on 2023/8/10.
 //

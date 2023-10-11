@@ -1,0 +1,6 @@
+framework module Pods_YLPopDemo {
+  umbrella header "Pods-YLPopDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

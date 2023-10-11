@@ -1,13 +1,13 @@
 //
 //  PopManager.swift
-//  PopTest
+//  弹窗工具类
 //
 //  Created by Lin on 2023/8/10.
 //
 
 import UIKit
 
-//MARK: 1.0.3版本
+//MARK: 0.0.1版本
 
 ///弹窗(加载框复用同一个view,提示文本初始化后丢弃)
 public let YLPop:PopManager = PopManager.share
@@ -88,6 +88,11 @@ extension PopManager{
                 make.top.leading.bottom.trailing.equalToSuperview()
             }
         }
+    }
+    
+    ///移除弹窗
+    public func removePop(animate:Bool){
+        pop.removeFromSuperview()
     }
 }
 
