@@ -1,0 +1,6 @@
+framework module YLPopView {
+  umbrella header "YLPopView-umbrella.h"
+
+  export *
+  module * { export * }
+}

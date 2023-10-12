@@ -10,15 +10,15 @@
 		0D94D860965E830BA597DA50 /* Pods_YLPopDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57D2DF581C0351AF292A28B /* Pods_YLPopDemoTests.framework */; };
 		1734E2F97873B75C371A0D88 /* Pods_YLPopDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C9D827A06C3CB788FEC1A5 /* Pods_YLPopDemo.framework */; };
 		44161649C0F4776FA518CE23 /* Pods_YLPopDemo_YLPopDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154DD0FB53B71F2008CEE91B /* Pods_YLPopDemo_YLPopDemoUITests.framework */; };
+		8403FF042AD7FE7500B634D5 /* PopConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FF012AD7FE7400B634D5 /* PopConfig.swift */; };
+		8403FF052AD7FE7500B634D5 /* PopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FF022AD7FE7500B634D5 /* PopManager.swift */; };
+		8403FF062AD7FE7500B634D5 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403FF032AD7FE7500B634D5 /* PopView.swift */; };
 		843E0BB82AD68AFC00B3526A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BB72AD68AFC00B3526A /* AppDelegate.swift */; };
 		843E0BC12AD68AFD00B3526A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E0BC02AD68AFD00B3526A /* Assets.xcassets */; };
 		843E0BCF2AD68AFE00B3526A /* YLPopDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BCE2AD68AFE00B3526A /* YLPopDemoTests.swift */; };
 		843E0BD92AD68AFE00B3526A /* YLPopDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BD82AD68AFE00B3526A /* YLPopDemoUITests.swift */; };
 		843E0BDB2AD68AFE00B3526A /* YLPopDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BDA2AD68AFE00B3526A /* YLPopDemoUITestsLaunchTests.swift */; };
 		843E0BE82AD68C3600B3526A /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BE72AD68C3600B3526A /* TestController.swift */; };
-		843E0BED2AD68D3E00B3526A /* PopConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BEA2AD68D3E00B3526A /* PopConfig.swift */; };
-		843E0BEE2AD68D3E00B3526A /* PopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BEB2AD68D3E00B3526A /* PopManager.swift */; };
-		843E0BEF2AD68D3E00B3526A /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E0BEC2AD68D3E00B3526A /* PopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,9 @@
 		154DD0FB53B71F2008CEE91B /* Pods_YLPopDemo_YLPopDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLPopDemo_YLPopDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715BB2C3A240E9BF45F833D /* Pods-YLPopDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPopDemo.release.xcconfig"; path = "Target Support Files/Pods-YLPopDemo/Pods-YLPopDemo.release.xcconfig"; sourceTree = "<group>"; };
 		71C9D827A06C3CB788FEC1A5 /* Pods_YLPopDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLPopDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403FF012AD7FE7400B634D5 /* PopConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopConfig.swift; sourceTree = "<group>"; };
+		8403FF022AD7FE7500B634D5 /* PopManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopManager.swift; sourceTree = "<group>"; };
+		8403FF032AD7FE7500B634D5 /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		843E0BB42AD68AFC00B3526A /* YLPopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E0BB72AD68AFC00B3526A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843E0BC02AD68AFD00B3526A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,9 +56,6 @@
 		843E0BD82AD68AFE00B3526A /* YLPopDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLPopDemoUITests.swift; sourceTree = "<group>"; };
 		843E0BDA2AD68AFE00B3526A /* YLPopDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLPopDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		843E0BE72AD68C3600B3526A /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
-		843E0BEA2AD68D3E00B3526A /* PopConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopConfig.swift; path = ../../../PopView/PopConfig.swift; sourceTree = "<group>"; };
-		843E0BEB2AD68D3E00B3526A /* PopManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopManager.swift; path = ../../../PopView/PopManager.swift; sourceTree = "<group>"; };
-		843E0BEC2AD68D3E00B3526A /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopView.swift; path = ../../../PopView/PopView.swift; sourceTree = "<group>"; };
 		ADFF23509FFE1F6271F36B3B /* Pods-YLPopDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPopDemo.debug.xcconfig"; path = "Target Support Files/Pods-YLPopDemo/Pods-YLPopDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6B7B23BB80A2DCEC989665A /* Pods-YLPopDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPopDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-YLPopDemoTests/Pods-YLPopDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D082986C6E2B751222699E8F /* Pods-YLPopDemo-YLPopDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPopDemo-YLPopDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-YLPopDemo-YLPopDemoUITests/Pods-YLPopDemo-YLPopDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +101,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8403FF002AD7FE6E00B634D5 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				8403FF012AD7FE7400B634D5 /* PopConfig.swift */,
+				8403FF022AD7FE7500B634D5 /* PopManager.swift */,
+				8403FF032AD7FE7500B634D5 /* PopView.swift */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
 		843E0BAB2AD68AFC00B3526A = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +136,7 @@
 		843E0BB62AD68AFC00B3526A /* YLPopDemo */ = {
 			isa = PBXGroup;
 			children = (
-				843E0BE92AD68D3800B3526A /* Pop */,
+				8403FF002AD7FE6E00B634D5 /* Pop */,
 				843E0BB72AD68AFC00B3526A /* AppDelegate.swift */,
 				843E0BE72AD68C3600B3526A /* TestController.swift */,
 				843E0BC02AD68AFD00B3526A /* Assets.xcassets */,
@@ -150,16 +160,6 @@
 				843E0BDA2AD68AFE00B3526A /* YLPopDemoUITestsLaunchTests.swift */,
 			);
 			path = YLPopDemoUITests;
-			sourceTree = "<group>";
-		};
-		843E0BE92AD68D3800B3526A /* Pop */ = {
-			isa = PBXGroup;
-			children = (
-				843E0BEA2AD68D3E00B3526A /* PopConfig.swift */,
-				843E0BEB2AD68D3E00B3526A /* PopManager.swift */,
-				843E0BEC2AD68D3E00B3526A /* PopView.swift */,
-			);
-			path = Pop;
 			sourceTree = "<group>";
 		};
 		B0DF5A169B0C3D87E1D24306 /* Pods */ = {
@@ -412,10 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E0BEF2AD68D3E00B3526A /* PopView.swift in Sources */,
+				8403FF062AD7FE7500B634D5 /* PopView.swift in Sources */,
 				843E0BB82AD68AFC00B3526A /* AppDelegate.swift in Sources */,
-				843E0BEE2AD68D3E00B3526A /* PopManager.swift in Sources */,
-				843E0BED2AD68D3E00B3526A /* PopConfig.swift in Sources */,
+				8403FF052AD7FE7500B634D5 /* PopManager.swift in Sources */,
+				8403FF042AD7FE7500B634D5 /* PopConfig.swift in Sources */,
 				843E0BE82AD68C3600B3526A /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

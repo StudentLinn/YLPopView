@@ -7,6 +7,7 @@ target 'YLPopDemo' do
 
   # Pods for YLPopDemo
   pod 'SnapKit'
+  pod 'YLPopView'
 
   target 'YLPopDemoTests' do
     inherit! :search_paths

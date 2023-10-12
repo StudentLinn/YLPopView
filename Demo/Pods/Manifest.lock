@@ -1,16 +1,21 @@
 PODS:
   - SnapKit (5.6.0)
+  - YLPopView (0.0.1):
+    - SnapKit
 
 DEPENDENCIES:
   - SnapKit
+  - YLPopView
 
 SPEC REPOS:
   trunk:
     - SnapKit
+    - YLPopView
 
 SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YLPopView: 39de35106c85d19d31bcac74d7d74fa2a2758ee5
 
-PODFILE CHECKSUM: f72f081141ade26a1edac716a017dedd65f691bf
+PODFILE CHECKSUM: 96918d12f538f2141f1265907aff8f110f249932
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0
