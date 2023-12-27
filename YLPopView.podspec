@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 # 名称
   s.name             = 'YLPopView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '简单弹窗'
 
   s.description      = <<-DESC
